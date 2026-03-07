@@ -157,7 +157,7 @@ function App() {
 
         <div className="project-buttons">
           <a 
-            href="https://github.com/yourusername/shoplane"
+            href="https://github.com/saurbu/STYLELANE-website"
             target="_blank"
             rel="noopener noreferrer"
             className="btn code-btn"
@@ -166,7 +166,7 @@ function App() {
           </a>
 
           <a 
-            href="https://shoplane-demo.vercel.app"
+            href="https://saurbu.github.io/STYLELANE-website/index.html"
             target="_blank"
             rel="noopener noreferrer"
             className="btn demo-btn"
