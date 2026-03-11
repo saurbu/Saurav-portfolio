@@ -157,7 +157,7 @@ function App() {
 
         <div className="project-buttons">
           <a 
-            href="https://github.com/saurbu/STYLELANE-website"
+            href="https://saurbu.github.io/STYLELANE-website/index.html"
             target="_blank"
             rel="noopener noreferrer"
             className="btn code-btn"
