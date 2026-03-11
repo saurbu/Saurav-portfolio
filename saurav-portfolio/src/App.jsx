@@ -150,7 +150,7 @@ function App() {
 
       {/* SHOPLANE */}
       <div className="project-card">
-        <h3>Shoplane</h3>
+        <h3>Stylelane</h3>
         <p>
           E-commerce platform with animated UI and structured product browsing.
         </p>
