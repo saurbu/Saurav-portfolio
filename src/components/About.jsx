@@ -9,7 +9,6 @@ const About = () => {
       <div className="absolute left-0 top-0 w-[500px] h-[500px] bg-red-600 blur-[180px] opacity-10"></div>
 
       <div className="max-w-7xl mx-auto w-full">
-
         <motion.p
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -23,15 +22,7 @@ const About = () => {
           initial={{ opacity: 0, y: 80 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="
-            text-[4rem]
-            md:text-[6rem]
-            font-black
-            uppercase
-            leading-[0.9]
-            text-left
-            "
-        >
+          className="text-[4rem] md:text-[6rem]  font-black uppercase leading-[0.9] text-left">
           I BUILD DIGITAL
           <br />
           EXPERIENCES.
@@ -41,15 +32,7 @@ const About = () => {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
-          className="
-            text-gray-400
-            max-w-3xl
-            mt-10
-            text-xl
-            leading-10
-            text-left
-            "
-        >
+          className=" text-gray-400 max-w-3xl mt-10 text-xl leading-10 text-left">
           I'm Saurav Sharma, a Computer Science student and
           Full Stack Developer passionate about building
           modern web applications, AI-powered products and

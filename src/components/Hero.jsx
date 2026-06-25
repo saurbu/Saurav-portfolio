@@ -43,13 +43,6 @@ const Hero = () => {
               View Work
             </button>
 
-            {/* <button
-              className="secondary-btn"
-              onClick={scrollToContact}
-            >
-              Contact Me
-            </button> */}
-
           </div>
 
           <div className="hero-socials">

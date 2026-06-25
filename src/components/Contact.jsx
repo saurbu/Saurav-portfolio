@@ -24,14 +24,7 @@ const Contact = () => {
           initial={{ opacity: 0, y: 80 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="
-          text-[4rem]
-          md:text-[6rem]
-          font-black
-          uppercase
-          leading-[0.9]
-          "
-        >
+          className=" text-[4rem] md:text-[6rem] font-black uppercase leading-[0.9]">
           LET'S WORK
           <br />
           TOGETHER.
@@ -41,14 +34,7 @@ const Contact = () => {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
-          className="
-          text-xl
-          text-gray-400
-          max-w-3xl
-          mt-10
-          leading-10
-          "
-        >
+          className=" text-xl  text-gray-400 max-w-3xl mt-10 leading-10">
           Available for internships, freelance work,
           collaborations and exciting development projects.
           Let's create something impactful together.
@@ -58,15 +44,7 @@ const Contact = () => {
 
           <a
             href="mailto:yourmail@example.com"
-            className="
-            text-2xl
-            md:text-4xl
-            font-bold
-            text-red-500
-            hover:text-white
-            transition
-            "
-          >
+            className=" text-2xl md:text-4xl font-bold text-red-500 hover:text-white transition">
             ss0619963@gmail.com
           </a>
 
