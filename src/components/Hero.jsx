@@ -35,7 +35,6 @@ const Hero = () => {
 
           <div className="hero-buttons">
 
-            {/* FIXED ROUTE */}
             <button
               className="primary-btn"
               onClick={() => navigate("/allproject")}

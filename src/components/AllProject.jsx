@@ -1,8 +1,13 @@
 import React from "react";
 
-import project1 from "../assets/project1.png";
 import project2 from "../assets/project2.png";
 import project3 from "../assets/project3.png";
+import projectT from "../assets/projectT.png";
+import projectG from "../assets/projectG.png";
+import projectC from "../assets/projectC.png";
+import projectR from "../assets/projectR.png";
+import projectL from "../assets/projectL.png";
+import projectS from "../assets/projectS.png";
 
 const projects = [
   {
@@ -10,55 +15,70 @@ const projects = [
     description:
       "Transparent system with attendance, expense tracking and live monitoring.",
     tech: ["React", "Node.js", "MongoDB","Express.js"],
-    image: project1,
-    link: "#",
-    demo: "#",
+    image: projectT,
+    code: "https://github.com/saurbu/TenderTrace",
+    demo: "https://tender-trace-5uxb-eqdwju11b-ss0619963-5893s-projects.vercel.app/"
   },
+  {
+      title: "Renterr Car Rental Platform",
+      description:
+        "Architected a dual-platform web application supporting separate login portals for customers and vehicle providers, optimizing access control and UX",
+      tech: ["React", "Gemini", ],
+      image: projectR,
+      code: "https://github.com/saurbu/renterr",
+      demo: "https://saurbu.github.io/"
+    },
   {
     title: "AI ChatHub",
     description:
       "AI chatbot with Gemini integration, voice input and image understanding.",
     tech: ["React", "Gemini"],
     image: project2,
-    link:"https://github.com/saurbu/ChatHub.Ai",
+    code:"https://github.com/saurbu/ChatHub.Ai",
     demo: "https://saurbu.github.io/ChatHub.Ai/"
   },
-  
+  {
+    title: "GraphOne",
+    description:
+      "Responsive website with modern UI and animations.",
+    tech: ["Nextjs", "Tailwindcss"],
+    image: projectG,
+    code: "https://github.com/saurbu/graphone",
+    demo: "https://graphone-ilim-eem7pod67-ss0619963-5893s-projects.vercel.app/"
+  },
+  {
+    title: "CollegeFind",
+    description:
+      "College Discovery Platform with Responsive website with modern UI and animations.",
+    tech: ["React", "Gemini", "API"],
+    image: projectC,
+    code:"https://github.com/saurbu/College-Discovery-Platform",
+    demo: "https://college-discovery-platform-five-phi.vercel.app/"
+  },
+  {
+      title: "Sticky Notes Social Platform",
+      description:
+        "Designed a social platform enabling users to create, share, and browse notes in a sticky-note-style dynamic UI, enhancing user engagement",
+      tech: ["HTML", "CSS", "PHP", "JavaScript"],
+      image: projectS,
+      code: "https://github.com/saurbu/sticky",  
+    },
+  {
+    title: "StyleLane",
+    description:
+      "Responsive Ecom website with all pages product, cart, details, booking confermation and also have price calculations, modern UI and animations.",
+    tech: [ "Javascript", "HTML", "Css"],
+    image: projectL,
+    code: "https://github.com/saurbu/STYLELANE-website",
+    demo: "https://saurbu.github.io/STYLELANE-website/index.html"
+  },
   {
     title: "College Website Clone",
     description:
       "Responsive website with modern UI and animations.",
     tech: ["HTML", "CSS", "JavaScript"],
     image: project3,
-    link: "https://github.com/saurbu/KCC-Institute-clone",
-    demo: "https://saurbu.github.io/KCC-Institute-clone"
-  },
-  {
-    title: "AI ChatHub",
-    description:
-      "AI chatbot with Gemini integration, voice input and image understanding.",
-    tech: ["React", "Gemini"],
-    image: project2,
-    link:"https://github.com/saurbu/ChatHub.Ai",
-    demo: "https://saurbu.github.io/ChatHub.Ai/"
-  },
-  
-  {
-    title: "College Website Clone",
-    description:
-      "Responsive website with modern UI and animations.",
-    tech: ["HTML", "CSS", "JavaScript"],
-    image: project3,
-    link: "https://github.com/saurbu/KCC-Institute-clone",
-    demo: "https://saurbu.github.io/KCC-Institute-clone"
-  },
-  {
-    title: "College Discovery Platform",
-    description:
-      "Responsive website with modern UI and animations.",
-    tech: ["React", "Tailwindcss"],
-    image: project3,
-    link: "https://github.com/saurbu/College-Discovery-Platform",
+    code: "https://github.com/saurbu/KCC-Institute-clone",
     demo: "https://saurbu.github.io/KCC-Institute-clone"
   },
 ];
@@ -107,7 +127,7 @@ const AllProject = () => {
               <div className="flex gap-3">
 
                 <a
-                  href={p.link}
+                  href={p.code}
                   target="_blank"
                   rel="noreferrer"
                   className="px-4 py-2 border border-white/20 text-white rounded-full hover:bg-white/10 transition text-sm"

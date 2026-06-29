@@ -43,7 +43,8 @@ const projects = [
       "Designed a social platform enabling users to create, share, and browse notes in a sticky-note-style dynamic UI, enhancing user engagement",
     tech: ["HTML", "CSS", "PHP", "JavaScript"],
     image: projectS,
-    codeLink: "https://github.com/saurbu/sticky",  },
+    codeLink: "https://github.com/saurbu/sticky",  
+  },
 ];
 
 const Projects = () => {
