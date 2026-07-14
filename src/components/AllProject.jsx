@@ -17,7 +17,7 @@ const projects = [
     tech: ["React", "Node.js", "MongoDB","Express.js"],
     image: projectT,
     code: "https://github.com/saurbu/TenderTrace",
-    demo: "https://tender-trace-5uxb-eqdwju11b-ss0619963-5893s-projects.vercel.app/"
+    demo: "https://tender-trace-gov.vercel.app"
   },
   {
       title: "Renterr Car Rental Platform",
@@ -44,7 +44,7 @@ const projects = [
     tech: ["Nextjs", "Tailwindcss"],
     image: projectG,
     code: "https://github.com/saurbu/graphone",
-    demo: "https://graphone-ilim-eem7pod67-ss0619963-5893s-projects.vercel.app/"
+    demo: "https://graphone-next.vercel.app/"
   },
   {
     title: "CollegeFind",
@@ -53,7 +53,7 @@ const projects = [
     tech: ["React", "Gemini", "API"],
     image: projectC,
     code:"https://github.com/saurbu/College-Discovery-Platform",
-    demo: "https://college-discovery-platform-five-phi.vercel.app/"
+    demo: "https://college-discovery-ind.vercel.app/"
   },
   {
       title: "Sticky Notes Social Platform",
