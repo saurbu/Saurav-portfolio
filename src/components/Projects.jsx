@@ -143,14 +143,14 @@ const Projects = () => {
         </motion.div>
         
       ))}
-      {/* <div className="flex justify-center mt-20">
+      <div className="flex justify-center mt-20">
         <Link
           to="/Allproject"
           className="px-8 py-4 rounded-full border border-red-500 text-red-500 font-semibold hover:bg-red-500 hover:text-black transition duration-300"
         >
           View All Projects →
           </Link>
-        </div> */}
+        </div> 
     </section>
   );
 };
