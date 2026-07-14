@@ -14,7 +14,7 @@ const projects = [
     tech: ["React", "Node.js", "MongoDB", "Express"],
     image: projectT,
     codeLink: "https://github.com/saurbu/TenderTrace",
-    liveLink: "https://tender-trace-5uxb-eqdwju11b-ss0619963-5893s-projects.vercel.app/"
+    liveLink: "https://tender-trace-gov.vercel.app/"
   },
   {
     number: "02",
