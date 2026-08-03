@@ -4,6 +4,7 @@ import projectT from "../assets/projectT.png";
 import projectR from "../assets/projectR.png";
 import projectS from "../assets/projectS.png";
 import project2 from "../assets/project2.png";
+import projectW from "../assets/projectW.png";
 
 const projects = [
   {
@@ -28,6 +29,16 @@ const projects = [
   },
   {
     number: "03",
+    title: "Watch Party System",
+    description:
+      "Developed a real-time YouTube Watch Party platform with synchronized video playback, live chat, and role-based room management using React, Node.js, Socket.IO, MongoDB, and JWT authentication.",
+    tech: ["React", "MongoDB", "Node", "Express", "Websocket"],
+    image: projectW,
+    codeLink: "https://github.com/saurbu/Watch-Party-System",
+    liveLink: "https://watch-party-system-zeta.vercel.app"
+  },
+  {
+    number: "04",
     title: "AI ChatHub",
     description:
       "AI powered chatbot with Gemini integration, voice search, image understanding, conversation history and modern UI.",
@@ -35,15 +46,6 @@ const projects = [
     image: project2,
     codeLink: "https://github.com/saurbu/ChatHub.Ai",
     liveLink: "https://saurbu.github.io/ChatHub.Ai/"
-  },
-  {
-    number: "04",
-    title: "Sticky Notes Social Platform",
-    description:
-      "Designed a social platform enabling users to create, share, and browse notes in a sticky-note-style dynamic UI, enhancing user engagement",
-    tech: ["HTML", "CSS", "PHP", "JavaScript"],
-    image: projectS,
-    codeLink: "https://github.com/saurbu/sticky",  
   },
 ];
 
@@ -143,14 +145,14 @@ const Projects = () => {
         </motion.div>
         
       ))}
-      {/* <div className="flex justify-center mt-20">
+      <div className="flex justify-center mt-20">
         <Link
           to="/Allproject"
           className="px-8 py-4 rounded-full border border-red-500 text-red-500 font-semibold hover:bg-red-500 hover:text-black transition duration-300"
         >
           View All Projects →
           </Link>
-        </div> */}
+        </div>
     </section>
   );
 };

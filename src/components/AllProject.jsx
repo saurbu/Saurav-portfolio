@@ -8,12 +8,13 @@ import projectC from "../assets/projectC.png";
 import projectR from "../assets/projectR.png";
 import projectL from "../assets/projectL.png";
 import projectS from "../assets/projectS.png";
+import projectW from "../assets/projectW.png";
 
 const projects = [
   {
     title: "Government Tender System",
     description:
-      "Transparent system with attendance, expense tracking and live monitoring.",
+      "Transparent system for Government and Citizens with attendance, expense tracking and live monitoring.",
     tech: ["React", "Node.js", "MongoDB","Express.js"],
     image: projectT,
     code: "https://github.com/saurbu/TenderTrace",
@@ -28,6 +29,15 @@ const projects = [
       code: "https://github.com/saurbu/renterr",
       demo: "https://saurbu.github.io/"
     },
+  {
+    title: "Watch Party",
+    description:
+      "Developed a real-time YouTube Watch Party platform with synchronized video playback, live chat, and role-based room management.",
+    tech: ["React", "MongoDB", "Node", "Express", "Websocket"],
+    image: projectW,
+    code:"https://github.com/saurbu/Watch-Party-System",
+    demo: "https://watch-party-system-zeta.vercel.app"
+  },
   {
     title: "AI ChatHub",
     description:
