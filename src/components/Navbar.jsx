@@ -75,7 +75,7 @@ const Navbar = () => {
           onClick={goHome}
           className="text-3xl font-black text-red-500 cursor-pointer"
         >
-          SAURAV.
+          saurbu.
         </h1>
 
         <ul className="hidden md:flex gap-10 font-medium items-center">

@@ -7,7 +7,7 @@ const Footer = () => {
 
           <div>
             <h2 className="text-5xl font-black tracking-tight">
-              SAURAV
+              saurbu.
               <span className="text-red-500">.</span>
             </h2>
 
