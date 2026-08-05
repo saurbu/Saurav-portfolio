@@ -6,9 +6,8 @@ const Footer = () => {
         <div className="flex flex-col lg:flex-row justify-between items-center gap-8">
 
           <div>
-            <h2 className="text-5xl font-black tracking-tight">
+            <h2 className="text-5xl text-red-500 font-black tracking-tight">
               saurbu.
-              <span className="text-red-500">.</span>
             </h2>
 
             <p className="text-gray-500 mt-3">
