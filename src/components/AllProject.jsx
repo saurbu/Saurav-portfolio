@@ -8,6 +8,7 @@ import projectC from "../assets/projectC.png";
 import projectR from "../assets/projectR.png";
 import projectL from "../assets/projectL.png";
 import projectS from "../assets/projectS.png";
+import projectSC from "../assets/projectSC.png";
 import projectW from "../assets/projectW.png";
 
 const projects = [
@@ -46,6 +47,14 @@ const projects = [
     image: project2,
     code:"https://github.com/saurbu/ChatHub.Ai",
     demo: "https://saurbu.github.io/ChatHub.Ai/"
+  },
+  {
+    title: "Studio Chicnest",
+    description: "Responsive interior design website with video backgrounds, gallery, blogs, contact form, and performance optimization using ImageKit.",
+    tech: ["React", "Vite", "Tailwind CSS", "ImageKit", "Web3Forms", "AOS"],
+    image: projectSC,
+    code: "https://github.com/saurbu/Studio-Chicnest",
+    demo: "https://studio-chicnest.vercel.app",
   },
   {
     title: "GraphOne",
@@ -112,7 +121,7 @@ const AllProject = () => {
             <img
               src={p.image}
               alt={p.title}
-              className="h-48 w-full object-cover"
+              className="h-48 w-full object-cover hover:scale-105 transition-all duration-500"
             />
 
             <div className="p-6">
