@@ -8,7 +8,7 @@ import projectC from "../assets/projectC.png";
 import projectR from "../assets/projectR.png";
 import projectL from "../assets/projectL.png";
 import projectS from "../assets/projectS.png";
-import projectSC from "../assets/projectSC.png";
+import projectSCN from "../assets/projectSC.png";
 import projectW from "../assets/projectW.png";
 
 const projects = [
@@ -52,7 +52,7 @@ const projects = [
     title: "Studio Chicnest",
     description: "Responsive interior design website with video backgrounds, gallery, blogs, contact form, and performance optimization using ImageKit.",
     tech: ["React", "Vite", "Tailwind CSS", "ImageKit", "Web3Forms", "AOS"],
-    image: projectSC,
+    image: projectSCN,
     code: "https://github.com/saurbu/Studio-Chicnest",
     demo: "https://studio-chicnest.vercel.app",
   },
