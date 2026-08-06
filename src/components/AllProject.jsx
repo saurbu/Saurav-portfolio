@@ -8,7 +8,7 @@ import projectC from "../assets/projectC.png";
 import projectR from "../assets/projectR.png";
 import projectL from "../assets/projectL.png";
 import projectS from "../assets/projectS.png";
-import projectSCN from "../assets/projectSC.png";
+import projectSCN from "../assets/scn.png";
 import projectW from "../assets/projectW.png";
 
 const projects = [
