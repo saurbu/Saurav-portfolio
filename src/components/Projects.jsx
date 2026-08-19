@@ -25,7 +25,7 @@ const projects = [
     tech: ["React", "Gemini", ],
     image: projectR,
     codeLink: "https://github.com/saurbu/renterr",
-    liveLink: "https://saurbu.github.io/"
+    liveLink: "https://renterr.vercel.app/"
   },
   {
     number: "03",

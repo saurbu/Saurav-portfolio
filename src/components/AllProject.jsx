@@ -28,7 +28,7 @@ const projects = [
       tech: ["React", "Gemini", ],
       image: projectR,
       code: "https://github.com/saurbu/renterr",
-      demo: "https://saurbu.github.io/"
+      demo: "https://renterr.vercel.app/"
     },
   {
     title: "Watch Party",
