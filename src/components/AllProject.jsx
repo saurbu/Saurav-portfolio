@@ -9,7 +9,9 @@ import projectR from "../assets/projectR.png";
 import projectL from "../assets/projectL.png";
 import projectS from "../assets/projectS.png";
 import projectSCN from "../assets/scn.png";
+import projectorb from "../assets/aiorbit.png";
 import projectW from "../assets/projectW.png";
+import projectst from "../assets/projectst.png";
 
 const projects = [
   {
@@ -25,7 +27,7 @@ const projects = [
       title: "Renterr Car Rental Platform",
       description:
         "Architected a dual-platform web application supporting separate login portals for customers and vehicle providers, optimizing access control and UX",
-      tech: ["React", "Gemini", ],
+      tech: ["React","Node.js", "MongoDB","Express.js","ImageKit" ],
       image: projectR,
       code: "https://github.com/saurbu/renterr",
       demo: "https://renterr.vercel.app/"
@@ -38,6 +40,24 @@ const projects = [
     image: projectW,
     code:"https://github.com/saurbu/Watch-Party-System",
     demo: "https://watch-party-system-zeta.vercel.app"
+  },
+  {
+    title: "Url Shortner",
+    description:
+      "Developed a real-time YouTube Watch Party platform with synchronized video playback, live chat, and role-based room management.",
+    tech: ["React", "MongoDB", "FastApi", "Python"],
+    image: projectst,
+    code:"https://github.com/saurbu/url-shortener",
+    demo: "https://saurbushortner.vercel.app/"
+  },
+  {
+    title: "Ai Orbit",
+    description:
+      "Developed a platform where you can comapre, save, explore different AI models.",
+    tech: ["React", "Next", "Prisma ORM", "PostgreSQL"],
+    image: projectorb,
+    code:"https://github.com/saurbu/ai-orbit",
+    demo: "https://ai-orbit-saurbu.vercel.app/"
   },
   {
     title: "AI ChatHub",
